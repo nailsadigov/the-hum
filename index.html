@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Ham</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b6763980d1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous">
+</script>    
+</head>
+<body>
+<!--=====================================
+
+    navigation section
+    
+=======================================-->
+<section class="container">
+    <section class="top-section-bg">
+        <header class="header-section">
+            <div class="header-box">
+            <div class="header-logo">
+                <div class="hexagon-logo">H</div>
+                <h1 class="logo-text">the<span class="green-text">Ham</span></h1>
+            </div>
+            <nav class="header-menu">
+                <a href="#" class="header-menu-word">home</a>
+                <a href="#" class="header-menu-word">about</a>
+                <a href="#" class="header-menu-word">skills</a>
+                <a href="#" class="header-menu-word">service</a>
+                <a href="#" class="header-menu-word">work</a>
+                <a href="#" class="header-menu-word">testimonial</a>
+                <a href="#" class="header-menu-word">blog</a>
+                <a href="#" class="header-menu-word">team</a>
+                <a href="#" class="header-menu-word">contact</a>
+
+                <!--it is not required but additionally I have added this part(search)-->
+                <a class="openBtn" onclick="openSearch()" title="Search"><i class="fa fa-search"></i></a>
+                <div id="myOverlay" class="overlay">
+                    <span class="closebtn" onclick="closeSearch()" title="Close">×</span>
+                    <div class="overlay-content">
+                    <form>
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit" title="Click to see result"><i class="fa fa-search"></i></button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+            </div>
+        </header>
+        <section class="top-section primary-section">
+            <h2 class="top-section-top-headline">The Ham is <span class="green-text">Wordpress theme</span></h2>
+            <h1 class="top-section-medium-headline">we are creative</h1>
+            <h3 class="top-section-bot-headline">Just Buy And Enjoy These Awesome Features</h3>
+        <div class="btn-case">
+            <a href="#" class="primary-btn">explore now</a>
+            <a href="#" class="primary-btn blue-btn">purchase now</a>
+        </div>
+        </section>
+    </section>
+</section>
+
+<!--=====================================
+
+    four squares section
+
+=======================================-->
+
+
+<div class="four-squares-section">
+    <div class="square-green-black">
+        <div class="bg-finger_point_sprite" ></div>
+        <p>different theme option</p>
+    </div>
+    <div class="square-green-white">
+        <div class="bg-gem_sprite" ></div>
+        <p>fully customizable</p>
+    </div>
+    <div class="square-green-black">
+        <div class="bg-supp_sptrite" ></div>
+        <p>unlimited support</p>
+    </div>
+    <div class="square-green-white">
+        <div class="bg-devicese_sprite" ></div>
+        <p>responsive all device</p>
+    </div>
+</div>
+
+<!--=====================================
+
+    our services section
+
+=======================================-->
+
+<section class="our-service-section primary-section">
+    <h2 class="primary-title">Our Services</h2>
+    <div class="our-services">
+        <ul class="title-tabs">
+            <li class="title-tabs-item active" data-service="WebDesign">
+                <h3 class="our-services-heading">Web Design</h3>
+            </li>
+            <li class="title-tabs-item" data-service="GraphicDesign">
+                <h3 class="our-services-heading">Graphic Design</h3>
+            </li>
+            <li class="title-tabs-item" data-service="OnlineSupport">
+                <h3 class="our-services-heading">Online Support</h3>
+            </li>
+            <li class="title-tabs-item" data-service="AppDesign">
+                <h3 class="our-services-heading">App Design</h3>
+            </li>
+            <li class="title-tabs-item" data-service="OnlineMarketing">
+                <h3 class="our-services-heading">Online Marketing</h3>
+            </li>
+            <li class="title-tabs-item" data-service="SeoService">
+                <h3 class="our-services-heading">Seo Service</h3>
+            </li>
+        </ul>
+        <ul class="tabs-content">
+            <li class="tabs-content-item" data-service="WebDesign">
+                <img class="services-img" src="img/servicesImges/forStepService6.jpg" alt="">
+                <p class="tabs-content-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque deserunt incidunt sint voluptatibus? Adipisci animi architecto corporis culpa cum, dolor dolore dolorum ducimus earum explicabo hic illo impedit iure, laudantium magnam minus modi pariatur porro quia recusandae reiciendis rem similique, suscipit tempore vel! Amet autem blanditiis eligendi est iste molestiae nostrum qui quis repellat temporibus. Eveniet, optio repudiandae. Doloribus eaque porro quibusdam quos reprehenderit veniam? Atque dolore eius eligendi eos et exercitationem hic incidunt perspiciatis similique sint! Adipisci asperiores consequatur consequuntur, cumque dolorum eveniet facere praesentium provident quo vitae. At doloremque ducimus hic illum in iure maxime, odit quasi.</p>
+            </li>
+            <li class="tabs-content-item" data-service="GraphicDesign">
+                <img class="services-img" src="img/servicesImges/forStepService5.jpg" alt="">
+                <p class="tabs-content-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequatur culpa dolor eligendi eos eum ipsa ipsum quia quod? Amet ducimus eius explicabo fuga fugiat, perspiciatis quas recusandae saepe ut! Atque facilis maiores maxime rem totam. Dolor dolorum ducimus enim ex inventore ipsum magnam magni nihil unde veritatis! Accusantium assumenda commodi consequuntur corporis cum cumque distinctio dolorem doloremque doloribus ea eius eveniet excepturi, expedita fuga, fugiat fugit hic incidunt ipsum iure iusto magni minima nisi odio officiis pariatur perspiciatis praesentium qui quod quos recusandae reiciendis repellat reprehenderit sit soluta vel veniam voluptatem? Quod, sapiente.</p>
+            </li>
+            <li class="tabs-content-item" data-service="OnlineSupport">
+                <img class="services-img" src="img/servicesImges/forStepService4.jpg" alt="">
+                <p class="tabs-content-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus atque consequatur debitis dolore impedit ipsum minima nesciunt, optio perspiciatis praesentium provident, quam recusandae repellendus sit unde voluptatem. Aspernatur atque, facilis fugiat illum iste laborum libero nam nobis reprehenderit. Cum hic iste magni molestias obcaecati possimus praesentium quae velit voluptas! Ad amet animi architecto blanditiis dolores ea, error esse, id illo molestias quod ratione ullam ut. Aut doloremque harum molestias non omnis repudiandae voluptatem. Iste laudantium optio ut? Consequatur hic, ipsum laboriosam modi molestiae nam nemo possimus sit temporibus totam?</p>
+            </li>
+            <li class="tabs-content-item" data-service="AppDesign">
+                <img class="services-img" src="img/servicesImges/forStepService3.jpg" alt="">
+                <p class="tabs-content-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam animi, consectetur deserunt dolorem doloremque error excepturi in iste, nihil officia optio, perspiciatis sed similique tempore ullam velit! Accusantium aliquid, aut corporis delectus dicta distinctio dolorum ducimus facere impedit ipsam iure libero minima modi nobis provident quae quasi veritatis vero voluptatem voluptates! Accusamus doloremque ipsa laudantium maxime mollitia odio perferendis quam quia quo reiciendis! Culpa dolores eius, exercitationem itaque minus nam natus numquam perspiciatis provident, repellendus repudiandae sequi. Ad aliquam architecto beatae cumque dignissimos dolorum ducimus error ex fugiat hic inventore ipsa iusto magnam, minus neque pariatur perferendis quam quod reprehenderit sit vel vitae.</p>
+            </li>
+            <li class="tabs-content-item" data-service="OnlineMarketing">
+                <img class="services-img" src="img/servicesImges/forStepService2.jpg" alt="">
+                <p class="tabs-content-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ducimus nobis recusandae! Accusantium, aliquid amet architecto asperiores autem cumque cupiditate deserunt dolor doloremque dolores esse est eveniet ex id illo natus numquam perferendis, perspiciatis porro, quaerat ratione sapiente sint sit tempora vero? Accusamus aliquid aperiam distinctio doloremque dolores ducimus eaque, error eum exercitationem fuga fugit id, molestiae necessitatibus quaerat quasi qui quia quibusdam quis saepe sapiente sunt tenetur ullam ut voluptate voluptatum. Aspernatur at aut beatae commodi cumque ea eligendi, enim eum explicabo, praesentium quod soluta vitae voluptates. Accusantium alias autem expedita fugiat incidunt rem, vero voluptatem!</p>
+            </li>
+            <li class="tabs-content-item" data-service="SeoService">
+                <img class="services-img" src="img/servicesImges/forStepService1.jpg" alt="">
+                <p class="tabs-content-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur cumque dolor expedita itaque. Consectetur debitis dicta dignissimos ea earum id illum impedit ipsam iure magni minima, nemo nisi nulla, odio pariatur quaerat quo similique sint? Aliquam consequuntur distinctio iure optio quae quam repellat, suscipit unde. Blanditiis corporis est nesciunt repudiandae sunt suscipit! Accusamus ad adipisci aliquam aliquid, aperiam at cumque eligendi eum expedita ipsa itaque laborum nesciunt nostrum obcaecati odit perspiciatis praesentium quaerat quibusdam sed sunt! Accusamus adipisci atque deserunt distinctio dolor, eius fuga nihil quam quia, repellendus rerum sequi sunt.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+    <!--=====================================
+
+        purchase section
+
+    =======================================-->
+
+<div class="purchase-section-bg">
+    <section class="purchase-section primary-section">
+        <h2 class="purchase-headline">Everything is ready. just buy and install now</h2>
+        <p class="purchase-text">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
+        <a href="#" class="primary-btn">purchase now</a>
+    </section>
+</div>
+
+    <!--=====================================
+
+        our work section
+
+    =======================================-->
+
+<section class="our-work-section">
+        <h2 class="primary-title">Our Amazing Work</h2>
+        <ul class="category-plate">
+            <li class="category-plate-item active-category" data-category="All" style="padding : 20px 30px 20px 30px;">
+                <h3 class="our-work-section-heading">All</h3>
+            </li>
+            <li class="category-plate-item" data-category="Graphic">
+                <h3 class="our-work-section-heading">Graphic Design</h3>
+            </li>
+            <li class="category-plate-item" data-category="Web">
+                <h3 class="our-work-section-heading">Web Design</h3>
+            </li>
+            <li class="category-plate-item" data-category="Landing">
+                <h3 class="our-work-section-heading">Landing Pages</h3>
+            </li>
+            <li class="category-plate-item" data-category="Wordpress">
+                <h3 class="our-work-section-heading">Wordpress</h3>
+            </li>
+        </ul>
+
+        <div class="category-img-plate">
+            <div class="category-img-plate-item is-on" data-category="Graphic" data-showed="1"><img src="img/graphic-design/graphic-design1.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design2.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design3.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design4.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Graphic" data-showed="1"><img src="img/graphic-design/graphic-design5.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design6.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design7.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design8.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Graphic" data-showed="1"><img src="img/graphic-design/graphic-design9.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design10.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Graphic" data-showed=""><img src="img/graphic-design/graphic-design11.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Graphic" data-showed="1"><img src="img/graphic-design/graphic-design12.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Landing" data-showed=""><img src="img/landing-page/landing-page1.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Landing page</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Landing" data-showed="1"><img src="img/landing-page/landing-page2.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Landing page</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Landing" data-showed=""><img src="img/landing-page/landing-page3.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Landing page</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Landing" data-showed="1"><img src="img/landing-page/landing-page4.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Landing page</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Landing" data-showed=""><img src="img/landing-page/landing-page5.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Graphic</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Landing" data-showed=""><img src="img/landing-page/landing-page6.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Landing page</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Landing" data-showed="1"><img src="img/landing-page/landing-page7.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Landing page</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Web" data-showed=""><img src="img/web-design/web-design1.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Web" data-showed=""><img src="img/web-design/web-design2.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Web" data-showed="1"><img src="img/web-design/web-design3.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Web" data-showed=""><img src="img/web-design/web-design4.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Web" data-showed="1"><img src="img/web-design/web-design5.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Web" data-showed=""><img src="img/web-design/web-design6.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Web" data-showed="1"><img src="img/web-design/web-design7.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Web design</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress1.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress2.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Wordpress" data-showed="1"><img src="img/wordpress/wordpress3.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress4.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress5.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress6.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item is-on" data-category="Wordpress" data-showed="1"><img src="img/wordpress/wordpress7.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress8.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress9.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+            <div class="category-img-plate-item" data-category="Wordpress" data-showed=""><img src="img/wordpress/wordpress10.jpg" alt="">
+                <div class="hover-plate">
+                    <div class="icons-case">
+                        <div class="hover-plate-icons" title="visit"  ><i class="fas fa-link"></i></div>
+                        <div class="hover-plate-icons" title="preview"><i class="fas fa-search"></i></div>
+                    </div>
+                    <h3 class="green-text-hover">creative design</h3>
+                    <h3 class="hover-plate-category">Wordpress</h3>
+                </div>
+            </div>
+        </div> 
+        <span class="load-more-btn" title="Click here tor see more">Load More</span>
+</section>
+
+    <!--=====================================
+
+        news section
+
+    =======================================-->
+
+<section class="primary-section news-section">
+    <h2 class="primary-title">Breaking News</h2>
+    <div class="news-plate">
+        <div class="news-plate-item">
+            <div class="news-img-div1">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Image Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div2">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div3">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div4">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div5">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div6">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div7">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+        <div class="news-plate-item">
+            <div class="news-img-div8">
+                <div class="date-month">
+                <span class="date">12</span>
+                <span class="month">Feb</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="news-text">Amazing Blog Post</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--=====================================
+
+        testimonial (slider) section
+
+    =======================================-->
+
+<div class="review-bg">
+<section class="review-section primary-section">
+    <h2 class="primary-title">What People Say About theHam</h2>
+    <div class="quotes"></div>
+    <p class="review-text" data-review="britney">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum atque deleniti ipsam similique veritatis velit consequatur mollitia consequuntur perspiciatis culpa!</p>
+    <p class="review-text" data-review="jack">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, dolore.</p>
+    <p class="review-text active-review" data-review="hasan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, minima.</p>
+    <p class="review-text" data-review="jessica">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, illo?</p>
+
+    <div class="big-correspondent" data-review="britney">
+        <h3 class="correspondent-info"><span class="green-text-review">Britney Jones</span>Designer</h3>
+        <div class="big-correspondent-img britney"></div>
+    </div>
+    <div class="big-correspondent" data-review="jack">
+        <h3 class="correspondent-info"><span class="green-text-review" >Jack Brown</span>Designer</h3>
+        <div class="big-correspondent-img jack"></div>
+    </div>
+    <div class="big-correspondent  active-big-review" data-review="hasan">
+        <h3 class="correspondent-info"><span class="green-text-review" >Hasan Ali</span>Designer</h3>
+        <div class="big-correspondent-img hasan"></div>
+    </div>
+    <div class="big-correspondent" data-review="jessica">
+        <h3 class="correspondent-info"><span class="green-text-review" >Jessica Dolores</span>Designer</h3>
+        <div class="big-correspondent-img jessica"></div>
+    </div>
+
+    <div class="correspondent-case">
+        <span class="previous primary-slide"><</span>
+        <div class="correspondent-img britney" data-review="britney" ></div>
+        <div class="correspondent-img jack" data-review="jack" ></div>
+        <div class="correspondent-img hasan active-correspondent .uno" data-review="hasan" ></div>
+        <div class="correspondent-img jessica" data-review="jessica" ></div>
+        <span class="next primary-slide">></span>
+    </div>
+</section>
+</div>
+
+    <!--=====================================
+
+        footer section
+
+    =======================================-->
+
+<footer class="footer">
+    <section class="primary-section">
+        <p class="copyright">&copy Copyright 2015 <span class="green-text">theHam</span> | All Rights Reserved</p>
+    </section>
+</footer>
+
+<script src="js/index.js"></script>
+</body>
+</html>
